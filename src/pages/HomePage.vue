@@ -2,7 +2,7 @@
   <div class="hero-image d-flex align-items-center justify-content-center">
     <div class="col-md-12 text-center">
       <h1 class="hero-text font-1 text-light px-5 text-shadow-2">
-        Randy Carpenter Memorial Foundation
+        Centennial Softball
       </h1>
     </div>
   </div>
@@ -16,7 +16,7 @@
           
         >
           <img
-            src="https://scontent-fml2-1.xx.fbcdn.net/v/t1.18169-9/154320_466267117079_6118989_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=cdbe9c&_nc_ohc=WDMrIYo_jxIAX-lfkcp&_nc_ht=scontent-fml2-1.xx&oh=00_AfDZpQIltUKPbi9QmLLR50ZFMIYJ2UPHLmUZEsWoVSae5w&oe=63B8D3E0"
+            src="https://images.unsplash.com/photo-1507245991864-a005497bdab8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
             alt=""
             class="img-fluid image-2 hover-2 rounded elevation-6"
           />
@@ -28,17 +28,17 @@
           >
             <div class="d-md-flex">
               <a href="#tournament" class="text-dark mx-auto">
-                <button class="btn p-3">Sign Up for Golf tournament</button>
+                <button class="btn p-3">Lorem</button>
               </a>
               <a href="#donate" class="text-dark">
-                <button class="btn p-3 my-3 my-md-0">Make a Donation</button>
+                <button class="btn p-3 my-3 my-md-0">Ipsum</button>
               </a>
               <button
                 class="btn p-3"
                 data-bs-toggle="modal"
                 data-bs-target="#newsletterForm"
               >
-                Sign up for NewsLetter
+                 Dolor
               </button>
             </div>
           </div>
@@ -56,12 +56,13 @@
 
               <blockquote class="p-5">
                 <p class="fs-3 text-center">
-                  <b class=""> PREPARATION</b>
+                  <!-- <b class=""> PREPARATION</b>
                   is the <b>SEPARATION</b> between being a good Firefighter - or
-                  becoming the <b>BEST</b>
+                  becoming the <b>BEST</b> -->
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 </p>
                 <figcaption class="blockquote-footer fs-5 mt-5 text-center">
-                  Captain Randy Carpenter
+                  Lorem Ipsum
                 </figcaption>
               </blockquote>
             </figure>
@@ -75,22 +76,22 @@
     <section>
       <div class="row justify-content-evenly my-5 bg-primary darken-10">
         <div class="col-md-12 my-5">
-          <h2 class="display-4 font-1">Providing Firefighters With</h2>
+          <h2 class="display-4 font-1">Lorem Ipsum</h2>
         </div>
         <div class="col-md-3 my-3" >
           <img
-            src="https://images.unsplash.com/photo-1633092228879-d6a88c22e7bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80"
+            src="https://images.unsplash.com/photo-1590502160462-58b41354f588?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80"
             alt=""
             class="three-images hover-2 img-fluid rounded"
           />
           <div class="my-3">
-            <p class="fs-3 mb-0 font-1">Fire Ground Training</p>
-            <p>Through Hands On Experience</p>
+            <p class="fs-3 mb-0 font-1">Lorem ipsum dolor</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa.</p>
           </div>
         </div>
         <div class="col-md-5 my-3" >
           <img
-            src="https://scontent-fml2-1.xx.fbcdn.net/v/t31.18172-8/13483319_10154795226862080_1434242293369889234_o.jpg?_nc_cat=110&ccb=1-7&_nc_sid=730e14&_nc_ohc=ZiXSMZmPGfQAX8jdQEq&_nc_ht=scontent-fml2-1.xx&oh=00_AfCdtEC9PsQ9xnwgPpD-7l2-LxZ58X2XRdFom-CA0ILBPg&oe=63B0634F"
+            src="https://images.unsplash.com/photo-1550926811-e05f6e9a406f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHNvZnRiYWxsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
             alt=""
             class="three-images hover-2 img-fluid rounded elevation-6"
           />
@@ -103,7 +104,7 @@
         </div>
         <div class="col-md-3 my-3">
           <img
-            src="https://scontent-fml2-1.xx.fbcdn.net/v/t31.18172-8/13495663_10154795225037080_7692198579030023972_o.jpg?_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_ohc=zOC_iireDwkAX_XgKG1&_nc_ht=scontent-fml2-1.xx&oh=00_AfD4Xk6C_-Yxv8sB8rNXS5za9ukRueRvCs9eEdLOF43Tsg&oe=63B07750"
+            src="https://images.unsplash.com/photo-1632171352299-2825194c5d2f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDF8fHNvZnRiYWxsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
             alt=""
             class="three-images hover-2 img-fluid rounded elevation-6"
           />
@@ -133,21 +134,21 @@
             <div class="carousel-inner elevation-6 rounded-1">
               <div class="carousel-item active">
                 <img
-                  src="https://images.unsplash.com/photo-1524856781660-e5c92f4ac62a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                  src="https://images.unsplash.com/photo-1463253897230-4e281bf226c0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1331&q=80"
                   class="d-block w-100"
                   alt="..."
                 />
               </div>
               <div class="carousel-item">
                 <img
-                  src="https://images.unsplash.com/photo-1614338577197-5812cb856df7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80."
+                  src="https://images.unsplash.com/photo-1571104243924-eae5f22308b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
                   class="d-block w-100"
                   alt="..."
                 />
               </div>
               <div class="carousel-item">
                 <img
-                  src="https://images.unsplash.com/photo-1504667290505-eee11f23905a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                  src="https://images.unsplash.com/photo-1582650448629-3c854f356544?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
                   class="d-block w-100"
                   alt="..."
                 />
@@ -231,7 +232,7 @@ export default {
   height: 40vh;
   /* always scale the image to the appropriate size of your screen */
   background-size: cover;
-  background-image: url(https://images.unsplash.com/photo-1524856781660-e5c92f4ac62a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+  background-image: url(https://images.unsplash.com/photo-1595883565795-fb9e37b4fa9d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1189&q=80);
   background-position: center top;
   /* keeps the image fixed while scrolling , neat effect. */
   background-attachment: fixed;
