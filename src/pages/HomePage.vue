@@ -22,13 +22,13 @@
           <div class="card border-0 p-3 d-flex justify-content-around">
             <div class="d-md-flex">
               <!-- <a href="#tournament" class="text-dark mx-auto"> -->
-              <button class="btn p-3 bg-primary">Lorem</button>
+              <button class="btn p-3 bg-primary">Home Games</button>
               <!-- </a>
               <a href="#donate" class="text-dark"> -->
-              <button class="btn p-3 my-3 my-md-0 bg-primary">Ipsum</button>
+              <button class="btn p-3 my-3 my-md-0 bg-primary">Away Games</button>
               <!-- </a> -->
               <button class="btn p-3 bg-primary">
-                Dolor
+                Past Games
               </button>
             </div>
           </div>

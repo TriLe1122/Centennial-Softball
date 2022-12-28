@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-expand-lg bg-primary py-5 rounded-4 mt-2 elevation-5">
     <img src="src\assets\img\12791.png" alt="" class="logo elevation-2 rounded-circle" style="width:9%">
-    <h2 class="p-2 title text-primary bg-success rounded-2 fb ">CENTENNIAL HIGH SCHOOL</h2>
+    <h2 class="p-2 title text-primary bg-success rounded-pill px-3 fb ">CENTENNIAL HIGH SCHOOL</h2>
     <!-- <router-link class="navbar-brand d-flex" :to="{ name: 'Home' }">
       <div class="d-flex flex-column align-items-center">
         <img alt="logo" src="../assets/img/cw-logo.png" height="45" />

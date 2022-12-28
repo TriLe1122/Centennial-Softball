@@ -6,7 +6,11 @@
     <router-view />
   </main>
   <footer class="bg-dark text-light">
-
+    <div class="row justify-content-center align-items-center g-2">
+      <div class="col"><img src="src\assets\img\12791.png" alt="" class="logo rounded-circle" style="width:50%"></div>
+      <div class="col">Column</div>
+      <div class="col">Column</div>
+    </div>
   </footer>
 </template>
 <style>
