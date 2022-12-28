@@ -1,31 +1,25 @@
 <template>
   <div class="hero-image d-flex align-items-center justify-content-center">
     <div class="col-md-12 text-center">
-      <h1 class="hero-text font-1 text-light px-5 text-shadow-2">
-        Centennial Softball
+      <h1 class="hero-text font-1 px-5 fb text-primary">
+        Patriot Athletics
       </h1>
+    <h1 class="hero-text2 font-1 px-5 fb text-primary">
+      Girls Softball
+    </h1>
     </div>
   </div>
   <div class="container-fluid mt-5">
     <!-- section1 -->
     <section>
       <div class="row">
-        <div
-          class="col-md-5 d-flex align-items-center justify-content-center"
-         
-          
-        >
+        <div class="col-md-5 d-flex align-items-center justify-content-center">
           <img
             src="https://images.unsplash.com/photo-1507245991864-a005497bdab8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-            alt=""
-            class="img-fluid image-2 hover-2 rounded elevation-6"
-          />
+            alt="" class="img-fluid image-2 hover-2 rounded elevation-6" />
         </div>
-        <div class="col-md-7" >
-          <div
-            class="card border-0 p-3 d-flex justify-content-around"
-           
-          >
+        <div class="col-md-7">
+          <div class="card border-0 p-3 d-flex justify-content-around">
             <div class="d-md-flex">
               <a href="#tournament" class="text-dark mx-auto">
                 <button class="btn p-3">Lorem</button>
@@ -33,20 +27,13 @@
               <a href="#donate" class="text-dark">
                 <button class="btn p-3 my-3 my-md-0">Ipsum</button>
               </a>
-              <button
-                class="btn p-3"
-                data-bs-toggle="modal"
-                data-bs-target="#newsletterForm"
-              >
-                 Dolor
+              <button class="btn p-3" data-bs-toggle="modal" data-bs-target="#newsletterForm">
+                Dolor
               </button>
             </div>
           </div>
 
-          <div
-            class="card p-md-5 border-0 mt-5 roboto"
-            
-          >
+          <div class="card p-md-5 border-0 mt-5 roboto">
             <figure class="">
               <!-- <p class="fs-2">
               <i class="mdi mdi-format-quote-open"></i> PREPARATION is the
@@ -78,23 +65,19 @@
         <div class="col-md-12 my-5">
           <h2 class="display-4 font-1">Lorem Ipsum</h2>
         </div>
-        <div class="col-md-3 my-3" >
+        <div class="col-md-3 my-3">
           <img
             src="https://images.unsplash.com/photo-1590502160462-58b41354f588?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80"
-            alt=""
-            class="three-images hover-2 img-fluid rounded"
-          />
+            alt="" class="three-images hover-2 img-fluid rounded" />
           <div class="my-3">
             <p class="fs-3 mb-0 font-1">Lorem ipsum dolor</p>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa.</p>
           </div>
         </div>
-        <div class="col-md-5 my-3" >
+        <div class="col-md-5 my-3">
           <img
             src="https://images.unsplash.com/photo-1550926811-e05f6e9a406f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHNvZnRiYWxsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-            alt=""
-            class="three-images hover-2 img-fluid rounded elevation-6"
-          />
+            alt="" class="three-images hover-2 img-fluid rounded elevation-6" />
           <div class="my-3">
             <p class="fs-3 mb-0 font-1">Lorem ipsum dolor</p>
             <p>
@@ -105,9 +88,7 @@
         <div class="col-md-3 my-3">
           <img
             src="https://images.unsplash.com/photo-1632171352299-2825194c5d2f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDF8fHNvZnRiYWxsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-            alt=""
-            class="three-images hover-2 img-fluid rounded elevation-6"
-          />
+            alt="" class="three-images hover-2 img-fluid rounded elevation-6" />
           <div class="my-3">
             <p class="fs-3 font-1 mb-0">Lorem ipsum dolor</p>
             <p>
@@ -122,60 +103,36 @@
     <!-- section3 -->
     <section>
       <div class="row justify-content-center">
-        <div class="col-md-12 text-center" >
+        <div class="col-md-12 text-center">
           <h3 class="font-1 display-3">Sponsors</h3>
         </div>
-        <div class="col-md-8 mb-5" >
-          <div
-            id="carouselExampleControls"
-            class="carousel slide"
-            data-bs-ride="carousel"
-          >
+        <div class="col-md-8 mb-5">
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner elevation-6 rounded-1">
               <div class="carousel-item active">
                 <img
                   src="https://images.unsplash.com/photo-1463253897230-4e281bf226c0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1331&q=80"
-                  class="d-block w-100"
-                  alt="..."
-                />
+                  class="d-block w-100" alt="..." />
               </div>
               <div class="carousel-item">
                 <img
                   src="https://images.unsplash.com/photo-1571104243924-eae5f22308b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-                  class="d-block w-100"
-                  alt="..."
-                />
+                  class="d-block w-100" alt="..." />
               </div>
               <div class="carousel-item">
                 <img
                   src="https://images.unsplash.com/photo-1582650448629-3c854f356544?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-                  class="d-block w-100"
-                  alt="..."
-                />
+                  class="d-block w-100" alt="..." />
               </div>
             </div>
-            <button
-              class="carousel-control-prev"
-              type="button"
-              data-bs-target="#carouselExampleControls"
-              data-bs-slide="prev"
-            >
-              <span
-                class="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
             </button>
-            <button
-              class="carousel-control-next"
-              type="button"
-              data-bs-target="#carouselExampleControls"
-              data-bs-slide="next"
-            >
-              <span
-                class="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
             </button>
           </div>
@@ -197,7 +154,7 @@ export default {
       // getFaceBookPictures();
     });
 
-   
+
 
     function hideOnScrollTest() {
       let nav = document.querySelector("#searchBar22");
@@ -228,6 +185,7 @@ export default {
   height: 600px;
   object-fit: cover;
 }
+
 .hero-image {
   height: 40vh;
   /* always scale the image to the appropriate size of your screen */
@@ -241,6 +199,7 @@ export default {
   @media only screen and (max-width: 768px) {
     height: 30vh;
   }
+
   .hero-text {
     font-size: 7rem;
 
@@ -249,13 +208,25 @@ export default {
       font-size: 3rem;
     }
   }
+
+  
 }
+
+ .hero-text2 {
+   font-size: 5rem;
+
+   //when screen is 768px OR LESS
+   @media only screen and (max-width: 768px) {
+     font-size: 3rem;
+   }
+ }
 
 .three-images {
   height: 30rem;
   width: auto;
   object-fit: cover;
 }
+
 #searchBar22 {
   transition: all 0.5s ease;
 }
@@ -278,10 +249,12 @@ export default {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   transition: all 0.5s ease;
 }
+
 .btn:hover {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
+
 .btn span {
   position: relative;
   z-index: 1;

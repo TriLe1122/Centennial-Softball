@@ -4,6 +4,11 @@
 @import "./_utilities.scss";
 @import "./loaders.scss";
 
+
+.fb{
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
 body{
   overscroll-behavior: none;
 }

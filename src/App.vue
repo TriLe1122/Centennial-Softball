@@ -1,15 +1,31 @@
 <template>
-  <header class="p-4">
+  <header class="p-4 mt-3">
     <Navbar />
   </header>
-  <main>
+  <main class="debug">
     <router-view />
   </main>
-   <!-- <footer class="bg-dark text-light">
+  <!-- <footer class="bg-dark text-light">
     Made with 💖 by CodeWorks
   </footer> -->
 </template>
+<style>
+body.debug .container,
+body.debug .container-fluid {
+  outline: 2px double blue;
+  outline-offset: -2px;
+}
 
+body.debug .row {
+  outline: 2px dashed red;
+  outline-offset: -2px;
+}
+
+body.debug [class*="col-"] {
+  outline: 2px dotted forestgreen;
+  outline-offset: -3px;
+}
+</style>
 <script>
 import { computed } from 'vue'
 import { AppState } from './AppState'
@@ -27,7 +43,7 @@ export default {
 <style lang="scss">
 @import "./assets/scss/main.scss";
 
-:root{
+:root {
   --main-height: calc(100vh - 32px - 64px);
 }
 
