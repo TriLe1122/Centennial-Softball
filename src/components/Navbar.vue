@@ -1,5 +1,6 @@
 <template>
-  <nav class="navbar navbar-expand-lg bg-primary px-3 ">
+  <nav class="navbar navbar-expand-lg bg-primary py-5 rounded-4">
+    <img src="src\assets\img\12791.png" alt="" class="logo" style="width:9%">
     <!-- <router-link class="navbar-brand d-flex" :to="{ name: 'Home' }">
       <div class="d-flex flex-column align-items-center">
         <img alt="logo" src="../assets/img/cw-logo.png" height="45" />
@@ -55,10 +56,15 @@ a:hover {
   border-bottom-right-radius: 0;
 }
 
+.logo{
+  position: relative;
+    top: 0px;
+    left: -18px;
+}
+
 @media screen and (min-width: 768px) {
   nav {
     height: 64px;
   }
 }
-
 </style>

@@ -74,7 +74,7 @@
 
     <!-- section2 -->
     <section>
-      <div class="row justify-content-evenly my-5 bg-primary darken-10">
+      <div class="row justify-content-evenly my-5 bg-primary">
         <div class="col-md-12 my-5">
           <h2 class="display-4 font-1">Lorem Ipsum</h2>
         </div>
