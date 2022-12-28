@@ -1,7 +1,7 @@
 <template>
-  <nav class="navbar navbar-expand-lg bg-primary py-5 rounded-4 mt-2">
-    <img src="src\assets\img\12791.png" alt="" class="logo" style="width:9%">
-    <h2 class="p-2 title text-primary bg-success rounded-2 fb">CENTENNIAL HIGH SCHOOL</h2>
+  <nav class="navbar navbar-expand-lg bg-primary py-5 rounded-4 mt-2 elevation-5">
+    <img src="src\assets\img\12791.png" alt="" class="logo elevation-2 rounded-circle" style="width:9%">
+    <h2 class="p-2 title text-primary bg-success rounded-2 fb ">CENTENNIAL HIGH SCHOOL</h2>
     <!-- <router-link class="navbar-brand d-flex" :to="{ name: 'Home' }">
       <div class="d-flex flex-column align-items-center">
         <img alt="logo" src="../assets/img/cw-logo.png" height="45" />
@@ -12,16 +12,16 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div>
-      <div class="collapse navbar-collapse mt-5 p-1" id="navbarText">
+      <div class="collapse navbar-collapse mt-5 pt-3" id="navbarText">
         <ul class="navbar-nav me-auto">
           <li>
-            <router-link :to="{ name: 'Home' }" class="btn text-light selectable text-uppercase">
-              HOME
+            <router-link :to="{ name: 'Home' }" class="btn text-light selectable text-uppercase ">
+              <h3>HOME</h3>
             </router-link>
           </li>
           <li>
-            <router-link :to="{ name: 'About' }" class="btn text-light selectable text-uppercase">
-              About
+            <router-link :to="{ name: 'About' }" class="btn text-light selectable text-uppercase ">
+              <h3>About</h3>
             </router-link>
           </li>
 
@@ -29,18 +29,20 @@
         <!-- LOGIN COMPONENT HERE -->
         <!-- <Login /> -->
       </div>
-      <div class="bg-success font-primary px-3 my-2 d-flex gap-5 p-2 rounded-3">
-        <div class="rounded-2 fw-bold text-primary selectable text-uppercase">Schedule</div>
-        <div class="rounded-2 fw-bold text-primary selectable text-uppercase">Coaches</div>
-        <div class="rounded-2 fw-bold text-primary selectable text-uppercase">Roster</div>
-        <div class="rounded-2 fw-bold text-primary selectable text-uppercase">Summaries & Headlines</div>
-        <div class="rounded-2 fw-bold text-primary selectable text-uppercase">News</div>
-        <div class="rounded-2 fw-bold text-primary selectable text-uppercase">Photos</div>
-        <div class="rounded-2 fw-bold text-primary selectable text-uppercase">Videos</div>
-        <div class="rounded-2 fw-bold text-primary selectable text-uppercase">Camps</div>
-        <div class="rounded-2 fw-bold text-primary selectable text-uppercase">Team Links</div>
-        <div class="rounded-2 fw-bold text-primary selectable text-uppercase">More</div>
+      <div>
+        <div class="bg-success font-primary px-3 my-2 d-flex gap-5 p-2 rounded-3 elevation-5">
+          <div class="rounded-2 fw-bold text-primary selectable text-uppercase">Schedule</div>
+          <div class="rounded-2 fw-bold text-primary selectable text-uppercase">Coaches</div>
+          <div class="rounded-2 fw-bold text-primary selectable text-uppercase">Roster</div>
+          <div class="rounded-2 fw-bold text-primary selectable text-uppercase">Summaries & Headlines</div>
+          <div class="rounded-2 fw-bold text-primary selectable text-uppercase">News</div>
+          <div class="rounded-2 fw-bold text-primary selectable text-uppercase">Photos</div>
+          <div class="rounded-2 fw-bold text-primary selectable text-uppercase">Videos</div>
+          <div class="rounded-2 fw-bold text-primary selectable text-uppercase">Camps</div>
+          <div class="rounded-2 fw-bold text-primary selectable text-uppercase">Team Links</div>
+          <div class="rounded-2 fw-bold text-primary selectable text-uppercase">More</div>
 
+        </div>
       </div>
     </div>
   </nav>
@@ -84,6 +86,7 @@ a:hover {
   border-style: solid;
   border-color: rgb(102, 0, 0),
   ;
+  border-width: thick;
 }
 
 

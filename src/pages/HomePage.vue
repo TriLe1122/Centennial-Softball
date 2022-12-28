@@ -1,12 +1,12 @@
 <template>
-  <div class="hero-image d-flex align-items-center justify-content-center">
-    <div class="col-md-12 text-center">
+  <div class="hero-image d-flex align-items-center justify-content-center mt-3">
+    <div class="col-md-12 text-center banner1 pb-2">
       <h1 class="hero-text font-1 px-5 fb text-primary">
         Patriot Athletics
       </h1>
-    <h1 class="hero-text2 font-1 px-5 fb text-primary">
-      Girls Softball
-    </h1>
+      <h1 class="hero-text2 font-1 px-5 fb text-primary">
+        Girls Softball
+      </h1>
     </div>
   </div>
   <div class="container-fluid mt-5">
@@ -21,38 +21,20 @@
         <div class="col-md-7">
           <div class="card border-0 p-3 d-flex justify-content-around">
             <div class="d-md-flex">
-              <a href="#tournament" class="text-dark mx-auto">
-                <button class="btn p-3">Lorem</button>
-              </a>
-              <a href="#donate" class="text-dark">
-                <button class="btn p-3 my-3 my-md-0">Ipsum</button>
-              </a>
-              <button class="btn p-3" data-bs-toggle="modal" data-bs-target="#newsletterForm">
+              <!-- <a href="#tournament" class="text-dark mx-auto"> -->
+              <button class="btn p-3 bg-primary">Lorem</button>
+              <!-- </a>
+              <a href="#donate" class="text-dark"> -->
+              <button class="btn p-3 my-3 my-md-0 bg-primary">Ipsum</button>
+              <!-- </a> -->
+              <button class="btn p-3 bg-primary">
                 Dolor
               </button>
             </div>
           </div>
 
-          <div class="card p-md-5 border-0 mt-5 roboto">
-            <figure class="">
-              <!-- <p class="fs-2">
-              <i class="mdi mdi-format-quote-open"></i> PREPARATION is the
-              SEPARATION between being a good Firefighter - or becoming the
-              BEST <i class="mdi mdi-format-quote-close"></i>
-            </p> -->
-
-              <blockquote class="p-5">
-                <p class="fs-3 text-center">
-                  <!-- <b class=""> PREPARATION</b>
-                  is the <b>SEPARATION</b> between being a good Firefighter - or
-                  becoming the <b>BEST</b> -->
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                </p>
-                <figcaption class="blockquote-footer fs-5 mt-5 text-center">
-                  Lorem Ipsum
-                </figcaption>
-              </blockquote>
-            </figure>
+          <div class="card p-md-4 mt-5">
+            <Upcoming />
           </div>
         </div>
       </div>
@@ -145,7 +127,8 @@
 
 <script>
 import { onMounted } from "vue";
-
+import Schedule from "../components/schedule.vue";
+import Upcoming from "../components/Upcoming.vue";
 
 export default {
   setup() {
@@ -153,9 +136,6 @@ export default {
       hideOnScrollTest();
       // getFaceBookPictures();
     });
-
-
-
     function hideOnScrollTest() {
       let nav = document.querySelector("#searchBar22");
       let prevScrollpos = window.scrollY;
@@ -167,16 +147,17 @@ export default {
           nav.style.top = "0";
           nav.style.transition = "all 0.25s ease";
           // nav.classList.remove("showOnScroll");
-        } else {
+        }
+        else {
           // nav.classList.add("hiddenOnScroll");
           nav.style.top = "-85px";
         }
         prevScrollpos = currentScrollPos;
       };
     }
-
     return {};
   },
+  components: { Schedule }
 };
 </script>
 
@@ -187,7 +168,7 @@ export default {
 }
 
 .hero-image {
-  height: 40vh;
+  height: 50vh;
   /* always scale the image to the appropriate size of your screen */
   background-size: cover;
   background-image: url(https://images.unsplash.com/photo-1595883565795-fb9e37b4fa9d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1189&q=80);
@@ -209,17 +190,17 @@ export default {
     }
   }
 
-  
+
 }
 
- .hero-text2 {
-   font-size: 5rem;
+.hero-text2 {
+  font-size: 5rem;
 
-   //when screen is 768px OR LESS
-   @media only screen and (max-width: 768px) {
-     font-size: 3rem;
-   }
- }
+  //when screen is 768px OR LESS
+  @media only screen and (max-width: 768px) {
+    font-size: 3rem;
+  }
+}
 
 .three-images {
   height: 30rem;
@@ -229,6 +210,10 @@ export default {
 
 #searchBar22 {
   transition: all 0.5s ease;
+}
+
+.banner1 {
+  background-color: #e5e5e541, ;
 }
 
 .btn {

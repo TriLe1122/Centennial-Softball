@@ -1,13 +1,13 @@
 <template>
-  <header class="p-4 mt-3">
+  <header class="p-4 mt-3 mb-3">
     <Navbar />
   </header>
   <main class="debug">
     <router-view />
   </main>
-  <!-- <footer class="bg-dark text-light">
-    Made with 💖 by CodeWorks
-  </footer> -->
+  <footer class="bg-dark text-light">
+
+  </footer>
 </template>
 <style>
 body.debug .container,
