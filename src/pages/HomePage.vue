@@ -85,7 +85,7 @@
     <!-- !section2 -->
 
     <!-- section3 -->
-    <section>
+    <!-- <section>
       <div class="row justify-content-center">
         <div class="col-md-12 text-center">
           <h3 class="font-1 display-3">Sponsors</h3>
@@ -122,7 +122,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- !section3 -->
   </div>
 </template>
