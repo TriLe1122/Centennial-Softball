@@ -2,14 +2,22 @@
   <header class="p-4 mt-3 mb-3">
     <Navbar />
   </header>
-  <main class="debug">
+  <main>
     <router-view />
   </main>
-  <footer class="bg-dark text-light">
-    <div class="row justify-content-center align-items-center g-2">
-      <div class="col"><img src="src\assets\img\12791.png" alt="" class="logo rounded-circle" style="width:50%"></div>
-      <div class="col">Column</div>
-      <div class="col">Column</div>
+  <row class="bg-primary" style="height:20px"></row>
+  <footer class="text-light bg-dark">
+    <div class="row justify-content-center align-items-center bg-dark">
+      <div class="col-md-6 mt-3 ms-5">
+        <img src="src\assets\img\12791.png" alt="" class="logo rounded-circle mb-2" style="width:50%">
+      </div>
+      <div class="col-md-5">
+        <p class="info">School Info</p>
+        <div>Centennial High School</div>
+        <div>12400 West Mc Millan Road</div>
+        <div>Boise, ID 83713</div>
+        <div>208-855-4250</div>
+      </div>
     </div>
   </footer>
 </template>
@@ -54,7 +62,18 @@ export default {
 
 footer {
   display: grid;
-  place-content: center;
-  height: 32px;
+  place-content: start;
+  height: 180px;
+}
+
+.logo {
+  position: relative;
+  top: 0px;
+  left: 150px;
+}
+
+.info{
+  font-size: smaller;
+  font-weight: bold;
 }
 </style>

@@ -19,21 +19,23 @@
             alt="" class="img-fluid image-2 hover-2 rounded elevation-6" />
         </div>
         <div class="col-md-7">
-          <div class="card border-0 p-3 d-flex justify-content-around">
+
+          <div class="card border-0 p-3 d-flex justify-content-around ">
             <div class="d-md-flex">
-              <!-- <a href="#tournament" class="text-dark mx-auto"> -->
+              <button class="btn p-3 bg-primary">Upcoming Games</button>
+              <!-- <a href="#tournament" class="text-dark mx-auto"> --> <button class="btn p-3 bg-primary">
+                Past Games
+              </button>
               <button class="btn p-3 bg-primary">Home Games</button>
               <!-- </a>
               <a href="#donate" class="text-dark"> -->
               <button class="btn p-3 my-3 my-md-0 bg-primary">Away Games</button>
               <!-- </a> -->
-              <button class="btn p-3 bg-primary">
-                Past Games
-              </button>
+
             </div>
           </div>
 
-          <div class="card p-md-4 mt-5">
+          <div class="card p-md-4 mt-1 border-0">
             <Upcoming />
           </div>
         </div>
@@ -192,6 +194,7 @@ export default {
 
 
 }
+
 
 .hero-text2 {
   font-size: 5rem;
