@@ -84,7 +84,7 @@ a:hover {
 .title {
   position: absolute;
   top: -40px;
-  left: 10px;
+  left: 5px;
   border-style: solid;
   border-color: rgb(102, 0, 0),
   ;

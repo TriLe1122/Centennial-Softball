@@ -5,14 +5,14 @@
   <main>
     <router-view />
   </main>
-  <row class="bg-primary" style="height:20px"></row>
-  <footer class="text-light bg-dark">
+  <row class="bg-primary elevation-3" style="height:20px"></row>
+  <footer class="text-light">
     <div class="d-flex justify-content-center align-items-center bg-dark">
 
       <div class="col-md-3 d-flex">
-        <img src="src\assets\img\12791.png" alt="" class="logo rounded-circle mb-md-2 elevation-3 pb-2 mt-2"
+        <img src="src\assets\img\12791.png" alt="" class="logo rounded-circle mb-md-2 elevation-3 pb-2 mt-3"
           height="200px" width="200px">
-        <div class=" mt-4">
+        <div class=" mt-4 mb-3">
           <p class="info">School Info</p>
           <div>Centennial High School</div>
           <div>12400 West Mc Millan Road</div>
@@ -74,7 +74,9 @@ export default {
 .logo {
   position: relative;
   top: 0px;
-  left: 50px;
+  left: -17px;
+  height:150px!important;
+  width:150px!important;
 }
 
 .info {

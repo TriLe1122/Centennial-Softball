@@ -11,7 +11,7 @@
   </div>
   <div class="container-fluid mt-5">
     <!-- section1 -->
-    <section>
+    <section class=" p-5">
       <div class="row">
         <div class="col-md-5 d-flex align-items-center justify-content-center">
           <img
@@ -22,15 +22,10 @@
 
           <div class="card border-0 p-3 d-flex justify-content-around ">
             <div class="d-md-flex">
-              <button class="btn p-3 bg-primary">Upcoming Games</button>
-              <!-- <a href="#tournament" class="text-dark mx-auto"> --> <button class="btn p-3 bg-primary">
-                Past Games
-              </button>
-              <button class="btn p-3 bg-primary">Home Games</button>
-              <!-- </a>
-              <a href="#donate" class="text-dark"> -->
+              <button class="btn p-3 my-3 my-md-0 bg-primary">Upcoming Games</button>
+              <button class="btn p-3 my-3 my-md-0 bg-primary"> Past Games</button>
+              <button class="btn p-3 my-3 my-md-0 bg-primary">Home Games</button>
               <button class="btn p-3 my-3 my-md-0 bg-primary">Away Games</button>
-              <!-- </a> -->
 
             </div>
           </div>
@@ -45,35 +40,43 @@
 
     <!-- section2 -->
     <section>
-      <div class="row justify-content-evenly my-5 bg-primary">
-        <div class="col-md-12 my-5">
-          <h2 class="display-4 font-1">Lorem Ipsum</h2>
+
+      <div class="row justify-content-evenly my-5 pb-4">
+        <div class="col-md-12 banner1 pb-2">
+          <h1 class="hero-text2 font-1 px-5 fb text-primary">
+            Lorem Ipsum
+          </h1>
         </div>
-        <div class="col-md-3 my-3">
+
+
+        <div class="col-md-3 my-3 rounded-3 p-3">
           <img
             src="https://images.unsplash.com/photo-1590502160462-58b41354f588?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80"
             alt="" class="three-images hover-2 img-fluid rounded" />
-          <div class="my-3">
+          <div class="my-3 bg-success p-2 rounded-3">
             <p class="fs-3 mb-0 font-1">Lorem ipsum dolor</p>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa.</p>
           </div>
         </div>
-        <div class="col-md-5 my-3">
+
+
+        <div class="col-md-5 my-3 rounded-3 p-3">
           <img
             src="https://images.unsplash.com/photo-1550926811-e05f6e9a406f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHNvZnRiYWxsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
             alt="" class="three-images hover-2 img-fluid rounded elevation-6" />
-          <div class="my-3">
+          <div class="my-3 bg-success p-2 rounded-3">
             <p class="fs-3 mb-0 font-1">Lorem ipsum dolor</p>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quo, ipsa dolorum facilis qui explicabo
+              possimus cupiditate quod animi dolores.
             </p>
           </div>
         </div>
-        <div class="col-md-3 my-3">
+        <div class="col-md-3 my-3 rounded-3 p-3">
           <img
-            src="https://images.unsplash.com/photo-1632171352299-2825194c5d2f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDF8fHNvZnRiYWxsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+            src="https://images.unsplash.com/photo-1590502148726-931b4b16b63a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=436&q=80"
             alt="" class="three-images hover-2 img-fluid rounded elevation-6" />
-          <div class="my-3">
+          <div class="my-3 bg-success p-2 rounded-3">
             <p class="fs-3 font-1 mb-0">Lorem ipsum dolor</p>
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa.
@@ -85,10 +88,12 @@
     <!-- !section2 -->
 
     <!-- section3 -->
-    <!-- <section>
+    <section>
       <div class="row justify-content-center">
-        <div class="col-md-12 text-center">
-          <h3 class="font-1 display-3">Sponsors</h3>
+        <div class="col-md-12 text-center banner1 pb-2">
+          <h1 class="hero-text2 font-1 px-5 fb text-primary">
+            Sponsors
+          </h1>
         </div>
         <div class="col-md-8 mb-5">
           <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
@@ -96,17 +101,17 @@
               <div class="carousel-item active">
                 <img
                   src="https://images.unsplash.com/photo-1463253897230-4e281bf226c0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1331&q=80"
-                  class="d-block w-100" alt="..." />
+                  class="d-block w-100 img-fluid" alt="..." />
               </div>
               <div class="carousel-item">
                 <img
-                  src="https://images.unsplash.com/photo-1571104243924-eae5f22308b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-                  class="d-block w-100" alt="..." />
+                  src="https://images.unsplash.com/photo-1503766587563-7cf366650cd9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80"
+                  class="d-block w-100 img-fluid" alt="..." />
               </div>
               <div class="carousel-item">
                 <img
-                  src="https://images.unsplash.com/photo-1582650448629-3c854f356544?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-                  class="d-block w-100" alt="..." />
+                  src="https://images.unsplash.com/photo-1582650448580-54336a6a4c1a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80"
+                  class="d-block w-100 img-fluid" alt="..." />
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
@@ -122,7 +127,7 @@
           </div>
         </div>
       </div>
-    </section> -->
+    </section>
     <!-- !section3 -->
   </div>
 </template>
