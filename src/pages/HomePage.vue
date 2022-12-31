@@ -41,7 +41,7 @@
     <!-- section2 -->
     <section>
 
-      <div class="row justify-content-evenly my-5 pb-4">
+      <div class="row justify-content-evenly my-5">
         <div class="col-md-12 banner1 pb-2">
           <h1 class="hero-text2 font-1 px-5 fb text-primary">
             Lorem Ipsum

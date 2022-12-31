@@ -1,8 +1,7 @@
 <template>
-  <nav class="navbar navbar-expand-lg bg-primary py-5 rounded-4 mt-2 elevation-5 ">
+  <nav class="navbar navbar-expand-lg bg-primary py-5 rounded-4 mt-2 elevation-5">
     <img src="src\assets\img\12791.png" alt="" class="logo elevation-2 rounded-circle" style="width:9%">
     <h2 class="p-2 title text-primary bg-success rounded-pill px-3 fb ">CENTENNIAL HIGH SCHOOL</h2>
-
     <div>
       <div class="mt-md-5 pt-md-3 me-auto navbar-nav">
         <!-- <ul class="navbar-nav me-auto">
@@ -25,19 +24,19 @@
           aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="bg-success font-primary px-3 my-2 d-flex gap-5 p-2 rounded-3 elevation-5 list navbar-nav me-auto"
-          id="navbarText">
-          <div class="rounded-2 fw-bold text-primary selectable text-uppercase">Schedule</div>
-          <div class="rounded-2 fw-bold text-primary selectable text-uppercase">Coaches</div>
-          <div class="rounded-2 fw-bold text-primary selectable text-uppercase">Roster</div>
-          <div class="rounded-2 fw-bold text-primary selectable text-uppercase">Summaries & Headlines</div>
-          <div class="rounded-2 fw-bold text-primary selectable text-uppercase">News</div>
-          <div class="rounded-2 fw-bold text-primary selectable text-uppercase">Photos</div>
-          <div class="rounded-2 fw-bold text-primary selectable text-uppercase">Videos</div>
-          <div class="rounded-2 fw-bold text-primary selectable text-uppercase">Camps</div>
-          <div class="rounded-2 fw-bold text-primary selectable text-uppercase">Team Links</div>
-          <div class="rounded-2 fw-bold text-primary selectable text-uppercase">More</div>
-
+        <div id="navbarText">
+          <div class="bg-success font-primary px-3 my-2 d-flex gap-5 p-2 rounded-3 elevation-5 list navbar-nav me-auto">
+            <div class="rounded-2 fw-bold text-primary selectable text-uppercase">Schedule</div>
+            <div class="rounded-2 fw-bold text-primary selectable text-uppercase">Coaches</div>
+            <div class="rounded-2 fw-bold text-primary selectable text-uppercase">Roster</div>
+            <div class="rounded-2 fw-bold text-primary selectable text-uppercase">Summaries & Headlines</div>
+            <div class="rounded-2 fw-bold text-primary selectable text-uppercase">News</div>
+            <div class="rounded-2 fw-bold text-primary selectable text-uppercase">Photos</div>
+            <div class="rounded-2 fw-bold text-primary selectable text-uppercase">Videos</div>
+            <div class="rounded-2 fw-bold text-primary selectable text-uppercase">Camps</div>
+            <div class="rounded-2 fw-bold text-primary selectable text-uppercase">Team Links</div>
+            <div class="rounded-2 fw-bold text-primary selectable text-uppercase">More</div>
+          </div>
         </div>
       </div>
     </div>
